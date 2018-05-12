@@ -59,7 +59,7 @@ a:hover {
 }
 
 .projects {
-    height: 125vh;
+    height: 100vh;
     padding: 50px;
     background: #fff;
 }
@@ -72,28 +72,8 @@ a:hover {
     justify-content: space-between;
 }
 
-.project-name-one {
-    width: 17.5%;
-    height: 5vh;
-}
-
-.project-name-two {
-    width: 17.5%;
-    height: 5vh;
-}
-
-.project-name-three {
-    width: 17.5%;
-    height: 5vh;
-}
-
-.project-name-four {
-    width: 17.5%;
-    height: 5vh;
-}
-
-.project-name-five {
-    width: 17.5%;
+.project-name {
+    width: 22.5%;
     height: 5vh;
 }
 
@@ -104,22 +84,22 @@ a:hover {
 }
 
 .secondary-display-container {
-    height: 15vh;
+    height: 17.5vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 15vh;
+    margin-bottom: 10vh;
 }
 
 .secondary-display {
-    height: 20vh;
-    width: 17.5%;
+    height: 17.5vh;
+    width: 22.5%;
     border: 1.5px solid black;
     border-radius: 5px;
 }
 
 .secondary-display img {
-    height: 20vh;
+    height: 17.5vh;
     width: 100%;
     border-radius: 5px;
     object-fit: cover;
@@ -130,32 +110,23 @@ a:hover {
 }
 
 .selected-display {
-    height: 40vh;
-    width: 60%;
+    height: 35vh;
+    width: 50%;
     border: 1.5px solid black;
     border-radius: 5px;
+    margin-right: 50px;
 }
 
-.primary-display-container {
-    height: 45vh;
-    width: 100%;
-    margin-top: 5vh;
-    margin: auto;
+.show-container {
+    display: flex;
 }
 
-.primary-display {
-    height: 40vh;
-    width: 100%;
-    border: 1px solid black;
-    border-radius: 5px;
-    margin: auto;
+.show-info {
+    margin-left: 50px;
 }
 
-.primary-display img {
-    height: 40vh;
-    width: 100%;
-    border-radius: 5px;
-    object-fit: cover;
+.title {
+    margin-bottom: 50px;
 }
 
 .contact {

@@ -37,19 +37,19 @@ class ReactRecords extends React.Component{
 
                     <div class="project-names-container">
 
-                        <div class="project-name-one">
+                        <div class="project-name">
                             <h3>Battleship Galactica</h3>
                         </div>
 
-                        <div class="project-name-two">
+                        <div class="project-name">
                             <h3>Left.Right.</h3>
                         </div>
 
-                        <div class="project-name-three">
+                        <div class="project-name">
                             <h3>Drinkr</h3>
                         </div>
 
-                        <div class="project-name-five">
+                        <div class="project-name">
                             <h3>Chop Chop</h3>
                         </div>
 
@@ -99,12 +99,18 @@ class ReactRecords extends React.Component{
                         <div class="selected-display">
                             <img src="" alt="React Records" />
                         </div>
-                        <h2>Description</h2>
-                        <p>React Records</p>
-                        <h2>Instructions</h2>
+                        <div>
+                            <h2 class="title">React Records</h2>
+                            <div class="show-info">
+                                <h4>Description</h4>
+                                <p>Chop Chop description here...</p>
+                                <br></br>
+                                <h4>Technologies Used</h4>
+                                <ul>
 
-                        <h2>Technologies Used</h2>
-
+                                </ul>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -117,19 +123,19 @@ class Drinkr extends React.Component{
 
                     <div class="project-names-container">
 
-                        <div class="project-name-one">
+                        <div class="project-name">
                             <h3>Battleship Galactica</h3>
                         </div>
 
-                        <div class="project-name-two">
+                        <div class="project-name">
                             <h3>Left.Right.</h3>
                         </div>
 
-                        <div class="project-name-four">
+                        <div class="project-name">
                             <h3>React Records</h3>
                         </div>
 
-                        <div class="project-name-five">
+                        <div class="project-name">
                             <h3>Chop Chop</h3>
                         </div>
 
@@ -177,14 +183,20 @@ class Drinkr extends React.Component{
 
                     <div class="show-container">
                         <div class="selected-display">
-                            <img src="" alt="Drink'r" />
+                            <img src="" alt="Drinkr" />
                         </div>
-                        <h2>Description</h2>
-                        <p>Drinkr</p>
-                        <h2>Instructions</h2>
+                        <div>
+                            <h2 class="title">Drinkr</h2>
+                            <div class="show-info">
+                                <h4>Description</h4>
+                                <p>Chop Chop description here...</p>
+                                <br></br>
+                                <h4>Technologies Used</h4>
+                                <ul>
 
-                        <h2>Technologies Used</h2>
-
+                                </ul>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -197,19 +209,19 @@ class LeftRight extends React.Component{
 
                     <div class="project-names-container">
 
-                        <div class="project-name-one">
+                        <div class="project-name">
                             <h3>Battleship Galactica</h3>
                         </div>
 
-                        <div class="project-name-three">
+                        <div class="project-name">
                             <h3>Drinkr</h3>
                         </div>
 
-                        <div class="project-name-four">
+                        <div class="project-name">
                             <h3>React Records</h3>
                         </div>
 
-                        <div class="project-name-five">
+                        <div class="project-name">
                             <h3>Chop Chop</h3>
                         </div>
 
@@ -259,12 +271,18 @@ class LeftRight extends React.Component{
                         <div class="selected-display">
                             <img src="" alt="Left.Right." />
                         </div>
-                        <h2>Description</h2>
-                        <p>Left.Right.</p>
-                        <h2>Instructions</h2>
+                        <div>
+                            <h2 class="title">Left.Right.</h2>
+                            <div class="show-info">
+                                <h4>Description</h4>
+                                <p>Left.Right. description here...</p>
+                                <br></br>
+                                <h4>Technologies Used</h4>
+                                <ul>
 
-                        <h2>Technologies Used</h2>
-
+                                </ul>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -277,19 +295,19 @@ class BattleshipGalactica extends React.Component{
 
                     <div class="project-names-container">
 
-                        <div class="project-name-two">
+                        <div class="project-name">
                             <h3>Left.Right.</h3>
                         </div>
 
-                        <div class="project-name-three">
+                        <div class="project-name">
                             <h3>Drinkr</h3>
                         </div>
 
-                        <div class="project-name-four">
+                        <div class="project-name">
                             <h3>React Records</h3>
                         </div>
 
-                        <div class="project-name-five">
+                        <div class="project-name">
                             <h3>Chop Chop</h3>
                         </div>
 
@@ -339,12 +357,20 @@ class BattleshipGalactica extends React.Component{
                         <div class="selected-display">
                             <img src="" alt="Battleship Galactica" />
                         </div>
-                        <h2>Description</h2>
-                        <p>Battleship Galactica</p>
-                        <h2>Instructions</h2>
-
-                        <h2>Technologies Used</h2>
-
+                        <div>
+                            <h2 class="title">Battleship Galactica</h2>
+                            <div class="show-info">
+                                <h4>Description</h4>
+                                <p>Battleship Galactica description here...</p>
+                                <br></br>
+                                <h4>Technologies Used</h4>
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -357,19 +383,19 @@ class ChopChop extends React.Component{
 
                     <div class="project-names-container">
 
-                        <div class="project-name-one">
+                        <div class="project-name">
                             <h3>Battleship Galactica</h3>
                         </div>
 
-                        <div class="project-name-two">
+                        <div class="project-name">
                             <h3>Left.Right.</h3>
                         </div>
 
-                        <div class="project-name-three">
+                        <div class="project-name">
                             <h3>Drinkr</h3>
                         </div>
 
-                        <div class="project-name-four">
+                        <div class="project-name">
                             <h3>React Records</h3>
                         </div>
 
@@ -419,12 +445,18 @@ class ChopChop extends React.Component{
                         <div class="selected-display">
                             <img src="" alt="Chop Chop" />
                         </div>
-                        <h2>Description</h2>
-                        <p>Chop Chop</p>
-                        <h2>Instructions</h2>
+                        <div>
+                            <h2 class="title">Chop Chop</h2>
+                            <div class="show-info">
+                                <h4>Description</h4>
+                                <p>Chop Chop description here...</p>
+                                <br></br>
+                                <h4>Technologies Used</h4>
+                                <ul>
 
-                        <h2>Technologies Used</h2>
-
+                                </ul>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
