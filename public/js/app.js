@@ -81,7 +81,7 @@ class ReactRecords extends React.Component{
                                 this.props.changeState('showingDr', 'showingRR')
                             }}
                         >
-                            <img src="" alt="Drink'r" />
+                            <img src="/css/images/drinkr.png" alt="Drink'r" />
                         </div>
 
                         <div
@@ -90,7 +90,7 @@ class ReactRecords extends React.Component{
                                 this.props.changeState('showingCC', 'showingRR')
                             }}
                         >
-                            <img src="" alt="Chop Chop" />
+                            <img src="/css/images/chop-chop.png" alt="Chop Chop" />
                         </div>
 
                     </div>
@@ -176,14 +176,14 @@ class Drinkr extends React.Component{
                                 this.props.changeState('showingCC', 'showingDr')
                             }}
                         >
-                            <img src="" alt="Chop Chop" />
+                            <img src="/css/images/chop-chop.png" alt="Chop Chop" />
                         </div>
 
                     </div>
 
                     <div class="show-container">
                         <div class="selected-display">
-                            <img src="" alt="Drinkr" />
+                            <img src="/css/images/drinkr.png" alt="Drinkr" />
                         </div>
                         <div>
                             <h2 class="title">Drinkr</h2>
@@ -244,7 +244,7 @@ class LeftRight extends React.Component{
                                 this.props.changeState('showingDr', 'showingLR')
                             }}
                         >
-                            <img src="" alt="Drink'r" />
+                            <img src="/css/images/drinkr.png" alt="Drink'r" />
                         </div>
 
                         <div
@@ -262,7 +262,7 @@ class LeftRight extends React.Component{
                                 this.props.changeState('showingCC', 'showingLR')
                             }}
                         >
-                            <img src="" alt="Chop Chop" />
+                            <img src="/css/images/chop-chop.png" alt="Chop Chop" />
                         </div>
 
                     </div>
@@ -330,7 +330,7 @@ class BattleshipGalactica extends React.Component{
                                 this.props.changeState('showingDr', 'showingBG')
                             }}
                         >
-                            <img src="" alt="Drink'r" />
+                            <img src="/css/images/drinkr.png" alt="Drink'r" />
                         </div>
 
                         <div
@@ -348,7 +348,7 @@ class BattleshipGalactica extends React.Component{
                                 this.props.changeState('showingCC', 'showingBG')
                             }}
                         >
-                            <img src="" alt="Chop Chop" />
+                            <img src="/css/images/chop-chop.png" alt="Chop Chop" />
                         </div>
 
                     </div>
@@ -427,7 +427,7 @@ class ChopChop extends React.Component{
                                 this.props.changeState('showingDr', 'showingCC')
                             }}
                         >
-                            <img src="" alt="Drink'r" />
+                            <img src="/css/images/drinkr.png" alt="Drink'r" />
                         </div>
 
                         <div
@@ -443,7 +443,7 @@ class ChopChop extends React.Component{
 
                     <div class="show-container">
                         <div class="selected-display">
-                            <img src="" alt="Chop Chop" />
+                            <img src="/css/images/chop-chop.png" alt="Chop Chop" />
                         </div>
                         <div>
                             <h2 class="title">Chop Chop</h2>
