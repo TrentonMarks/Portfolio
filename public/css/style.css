@@ -12,6 +12,15 @@ h1 {
     color: rgb(0, 0, 0);
 }
 
+.tech {
+    display: flex;
+    flex-direction: row;
+}
+
+.tech-container-one {
+    margin-right: 50px;
+}
+
 .container {
     max-width: 125vh;
     margin: 0 auto;
@@ -147,6 +156,10 @@ h1 {
     width: 100%;
     border-radius: 3px;
     object-fit: cover;
+}
+
+.show {
+    width: 50%;
 }
 
 .show-container {
