@@ -99,6 +99,7 @@ class ReactRecords extends React.Component{
                         <div class="selected-display">
                             <img src="/css/images/react-records.png" alt="React Records" />
                             <img src="/css/images/github.png" alt="github icon" />
+                            <img src="/css/images/link-icon.png" alt="link icon" />
                         </div>
                         <div class="show">
                             <div class="show-info">
@@ -197,6 +198,7 @@ class Drinkr extends React.Component{
                         <div class="selected-display">
                             <img src="/css/images/drinkr.png" alt="Drinkr" />
                             <img src="/css/images/github.png" alt="github icon" />
+                            <img src="/css/images/link-icon.png" alt="link icon" />
                         </div>
                         <div class="show">
                             <div class="show-info">
@@ -297,6 +299,7 @@ class LeftRight extends React.Component{
                         <div class="selected-display">
                             <img src="/css/images/left-right.png" alt="Left.Right." />
                             <img src="/css/images/github.png" alt="github icon" />
+                            <img src="/css/images/link-icon.png" alt="link icon" />
                         </div>
                         <div class="show">
                             <div class="show-info">
@@ -392,6 +395,7 @@ class BattleshipGalactica extends React.Component{
                         <div class="selected-display">
                             <img src="/css/images/battleship-galactica.png" alt="Battleship Galactica" />
                             <img src="/css/images/github.png" alt="github icon" />
+                            <img src="/css/images/link-icon.png" alt="link icon" />
                         </div>
                         <div class="show">
                             <div class="show-info">
@@ -474,6 +478,7 @@ class ChopChop extends React.Component{
                         <div class="selected-display">
                             <img src="/css/images/chop-chop.png" alt="Chop Chop" />
                             <img src="/css/images/github.png" alt="github icon" />
+                            <img src="/css/images/link-icon.png" alt="link icon" />
                         </div>
                         <div class="show">
                             <div class="show-info">

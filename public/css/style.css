@@ -169,6 +169,19 @@ img[alt="github icon"]:hover{
     filter: contrast(0);
 }
 
+img[alt="link icon"]{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 100px;
+    filter: contrast(.25);
+}
+
+img[alt="link icon"]:hover{
+    filter: contrast(0);
+}
+
 .show {
     width: 50%;
 }
