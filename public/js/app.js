@@ -99,22 +99,26 @@ class ReactRecords extends React.Component{
                         <div class="selected-display">
                             <img src="/css/images/react-records.png" alt="React Records" />
                         </div>
-                        <div>
+                        <div class="show">
                             <h2 class="title">React Records</h2>
                             <div class="show-info">
                                 <h4>Description</h4>
                                 <p>A collaborative (3-person team) project built as an online record store mockup website. Users can add new records, delete or edit/update records, find a list of all records at the home page, or click on any record to view its SHOW page. </p>
                                 <p>A full-stack Rails/React application that has one model with full CRUD. My personal role was to create the front-end using React. </p>
                                 <h4>Technologies Used</h4>
-                                <ul>
-                                    <li>Ruby on Rails</li>
-                                    <li>ReactJS</li>
-                                    <li>PostgreSQL</li>
-                                    <li>CSS</li>
-                                    <li>Bulma</li>
-                                    <li>HTML</li>
-                                    <li>JavaScript</li>
-                                </ul>
+                                <div class="tech">
+                                    <div class="tech-container-one">
+                                        <p>Ruby on Rails</p>
+                                        <p>ReactJS</p>
+                                        <p>PostgreSQL</p>
+                                    </div>
+                                    <div class="tech-container-two">
+                                        <p>CSS</p>
+                                        <p>Bulma</p>
+                                        <p>HTML</p>
+                                        <p>JavaScript</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -191,7 +195,7 @@ class Drinkr extends React.Component{
                         <div class="selected-display">
                             <img src="/css/images/drinkr.png" alt="Drinkr" />
                         </div>
-                        <div>
+                        <div class="show">
                             <h2 class="title">Drinkr</h2>
                             <div class="show-info">
                                 <h4>Description</h4>
@@ -199,16 +203,20 @@ class Drinkr extends React.Component{
                                 <p>A full-stack MEAN application adhering to the MVC file structure ("Views" directory is "Public" directory with Angular). A single model is used that has full CRUD and fetches from a third-party API on the client-side with AJAX.</p>
 
                                 <h4>Technologies Used</h4>
-                                <ul>
-                                    <li>Mongoose</li>
-                                    <li>Express</li>
-                                    <li>AngularJS</li>
-                                    <li>Node.js</li>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>Normalize/Skeleton</li>
-                                    <li>JavaScript</li>
-                                </ul>
+                                <div class="tech">
+                                    <div class="tech-container-one">
+                                        <p>Mongoose</p>
+                                        <p>Express</p>
+                                        <p>AngularJS</p>
+                                        <p>Node.js</p>
+                                    </div>
+                                    <div class="tech-container-two">
+                                        <p>HTML</p>
+                                        <p>CSS</p>
+                                        <p>Normalize/Skeleton</p>
+                                        <p>JavaScript</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -380,19 +388,19 @@ class BattleshipGalactica extends React.Component{
                         <div class="selected-display">
                             <img src="/css/images/battleship-galactica.png" alt="Battleship Galactica" />
                         </div>
-                        <div>
+                        <div class="show">
                             <h2 class="title">Battleship Galactica</h2>
                             <div class="show-info">
                                 <h4>Description</h4>
                                 <p>A 2-player game of Battleship (User vs. AI) with continuous play until a winning or losing outcome is reached.</p>
                                 <p>This front-end only project has been developed to demonstrate the capability of coding complex JavaScript logic using the jQuery library.</p>
                                 <h4>Technologies Used</h4>
-                                <ul>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
-                                    <li>jQuery</li>
-                                </ul>
+                                <div>
+                                    <p>HTML</p>
+                                    <p>CSS</p>
+                                    <p>JavaScript</p>
+                                    <p>jQuery</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -469,22 +477,26 @@ class ChopChop extends React.Component{
                         <div class="selected-display">
                             <img src="/css/images/chop-chop.png" alt="Chop Chop" />
                         </div>
-                        <div>
+                        <div class="show">
                             <h2 class="title">Chop Chop</h2>
                             <div class="show-info">
                                 <h4>Description</h4>
                                 <p>An individual project built for an imaginary delivery service to be able to collect and display relevant data quickly and accurately.</p>
                                 <p>A full-stack Rails/React application that has 7 models, makes complex SQL queries with Rails, and passes queried data through different methods in order to output data to display that is NOT directly held within the database. TailwindCSS, a utility first framework, was used to create a clean, responsive design.</p>
                                 <h4>Technologies Used</h4>
-                                <ul>
-                                    <li>Ruby on Rails</li>
-                                    <li>ReactJS</li>
-                                    <li>PostgreSQL</li>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>TailwindCSS</li>
-                                    <li>JavaScript</li>
-                                </ul>
+                                <div class="tech">
+                                    <div class="tech-container-one">
+                                        <p>Ruby on Rails</p>
+                                        <p>ReactJS</p>
+                                        <p>PostgreSQL</p>
+                                    </div>
+                                    <div class="tech-container-two">
+                                        <p>HTML</p>
+                                        <p>CSS</p>
+                                        <p>TailwindCSS</p>
+                                        <p>JavaScript</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
