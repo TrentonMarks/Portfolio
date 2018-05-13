@@ -2,12 +2,22 @@ body {
     margin: auto;
     background-color: #fcfcfc;
     font-family: 'Open Sans', sans-serif;
+    color: rgb(75,75,75)
+}
+
+h1 {
+    font-weight: 300;
+    color: rgb(0, 0, 0);
 }
 
 .container {
     max-width: 125vh;
     margin: 0 auto;
     box-shadow: 0px 0px 20px 2.5px #c1c1c1;
+}
+
+.header-name {
+    color: white;
 }
 
 .resume-container {
@@ -52,6 +62,10 @@ a:hover {
     color: lightsteelblue;
 }
 
+h1 {
+    color: rgb(75,75,75);
+}
+
 .about {
     height: 30vh;
     padding: 50px;
@@ -64,12 +78,18 @@ a:hover {
     background: #fff;
 }
 
+.span {
+    color: rgb(100,100,100);
+}
+
 .project-names-container {
     height: 5vh;
     width: 100%;
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
+    color: rgb(75,75,75);
+    font-weight: lighter;
 }
 
 .project-name {
@@ -96,12 +116,13 @@ a:hover {
     width: 22.5%;
     border: 1.5px solid black;
     border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 .secondary-display img {
     height: 17.5vh;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 3px;
     object-fit: cover;
 }
 
@@ -115,6 +136,14 @@ a:hover {
     border: 1.5px solid black;
     border-radius: 5px;
     margin-right: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.selected-display img {
+    height: 35vh;
+    width: 100%;
+    border-radius: 3px;
+    object-fit: cover;
 }
 
 .show-container {

@@ -63,7 +63,7 @@ class ReactRecords extends React.Component{
                                 this.props.changeState('showingBG', 'showingRR')
                             }}
                         >
-                            <img src="" alt="Battleship Galactica" />
+                            <img src="/css/images/battleship-galactica.png" alt="Battleship Galactica" />
                         </div>
 
                         <div
@@ -72,7 +72,7 @@ class ReactRecords extends React.Component{
                                 this.props.changeState('showingLR', 'showingRR')
                             }}
                         >
-                            <img src="" alt="Left.Right." />
+                            <img src="/css/images/left-right.png" alt="Left.Right." />
                         </div>
 
                         <div
@@ -97,7 +97,7 @@ class ReactRecords extends React.Component{
 
                     <div class="show-container">
                         <div class="selected-display">
-                            <img src="" alt="React Records" />
+                            <img src="/css/images/react-records.png" alt="React Records" />
                         </div>
                         <div>
                             <h2 class="title">React Records</h2>
@@ -149,7 +149,7 @@ class Drinkr extends React.Component{
                             this.props.changeState('showingBG', 'showingDr')
                         }}
                         >
-                            <img src="" alt="Battleship Galactica" />
+                            <img src="/css/images/battleship-galactica.png" alt="Battleship Galactica" />
                         </div>
 
                         <div
@@ -158,7 +158,7 @@ class Drinkr extends React.Component{
                                 this.props.changeState('showingLR', 'showingDr')
                             }}
                         >
-                            <img src="" alt="Left.Right." />
+                            <img src="/css/images/left-right.png" alt="Left.Right." />
                         </div>
 
                         <div
@@ -167,7 +167,7 @@ class Drinkr extends React.Component{
                                 this.props.changeState('showingRR', 'showingDr')
                             }}
                         >
-                            <img src="" alt="React Records" />
+                            <img src="/css/images/react-records.png" alt="React Records" />
                         </div>
 
                         <div
@@ -235,7 +235,7 @@ class LeftRight extends React.Component{
                                 this.props.changeState('showingBG', 'showingLR')
                             }}
                         >
-                            <img src="" alt="Battleship Galactica" />
+                            <img src="/css/images/battleship-galactica.png" alt="Battleship Galactica" />
                         </div>
 
                         <div
@@ -253,7 +253,7 @@ class LeftRight extends React.Component{
                                 this.props.changeState('showingRR', 'showingLR')
                             }}
                         >
-                            <img src="" alt="React Records" />
+                            <img src="/css/images/react-records.png" alt="React Records" />
                         </div>
 
                         <div
@@ -269,7 +269,7 @@ class LeftRight extends React.Component{
 
                     <div class="show-container">
                         <div class="selected-display">
-                            <img src="" alt="Left.Right." />
+                            <img src="/css/images/left-right.png" alt="Left.Right." />
                         </div>
                         <div>
                             <h2 class="title">Left.Right.</h2>
@@ -321,7 +321,7 @@ class BattleshipGalactica extends React.Component{
                                 this.props.changeState('showingLR', 'showingBG')
                             }}
                         >
-                            <img src="" alt="Left.Right." />
+                            <img src="/css/images/left-right.png" alt="Left.Right." />
                         </div>
 
                         <div
@@ -339,7 +339,7 @@ class BattleshipGalactica extends React.Component{
                                 this.props.changeState('showingRR', 'showingBG')
                             }}
                         >
-                            <img src="" alt="React Records" />
+                            <img src="/css/images/react-records.png" alt="React Records" />
                         </div>
 
                         <div
@@ -355,7 +355,7 @@ class BattleshipGalactica extends React.Component{
 
                     <div class="show-container">
                         <div class="selected-display">
-                            <img src="" alt="Battleship Galactica" />
+                            <img src="/css/images/battleship-galactica.png" alt="Battleship Galactica" />
                         </div>
                         <div>
                             <h2 class="title">Battleship Galactica</h2>
@@ -409,7 +409,7 @@ class ChopChop extends React.Component{
                                 this.props.changeState('showingBG', 'showingCC')
                             }}
                         >
-                            <img src="" alt="Battleship Galactica" />
+                            <img src="/css/images/battleship-galactica.png" alt="Battleship Galactica" />
                         </div>
 
                         <div
@@ -418,7 +418,7 @@ class ChopChop extends React.Component{
                                 this.props.changeState('showingLR', 'showingCC')
                             }}
                         >
-                            <img src="" alt="Left.Right." />
+                            <img src="/css/images/left-right.png" alt="Left.Right." />
                         </div>
 
                         <div
@@ -436,7 +436,7 @@ class ChopChop extends React.Component{
                                 this.props.changeState('showingRR', 'showingCC')
                             }}
                         >
-                            <img src="" alt="React Records" />
+                            <img src="/css/images/react-records.png" alt="React Records" />
                         </div>
 
                     </div>
@@ -558,7 +558,7 @@ class Nav extends React.Component{
 class Header extends React.Component{
     render(){
         return  <header>
-                    <h1>Trenton Marks</h1>
+                    <h1 class="header-name">Trenton Marks</h1>
                     <p>A Full Stack Developer based in Denver, Colorado</p>
                 </header>
     }
