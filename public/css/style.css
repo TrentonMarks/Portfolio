@@ -21,6 +21,10 @@ h1 {
     margin-right: 50px;
 }
 
+.tech-container-two {
+    margin-right: 50px;
+}
+
 .container {
     max-width: 125vh;
     margin: 0 auto;
@@ -101,18 +105,12 @@ h1 {
     display: flex;
     justify-content: space-between;
     color: rgb(75,75,75);
-    font-weight: lighter;
+    margin-bottom: 12.5px;
 }
 
 .project-name {
     width: 22.5%;
     height: 5vh;
-}
-
-.primary-name-container {
-    height: 4.5vh;
-    width: 100%;
-    text-align: center;
 }
 
 .secondary-display-container {
@@ -158,6 +156,19 @@ h1 {
     object-fit: cover;
 }
 
+img[alt="github icon"]{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 100px;
+    filter: contrast(.25);
+}
+
+img[alt="github icon"]:hover{
+    filter: contrast(0);
+}
+
 .show {
     width: 50%;
 }
@@ -195,8 +206,13 @@ footer a {
     color: white;
 }
 
-img[alt="icon"] {
+img[alt="footer-icon"] {
     width: 40px;
     height: 40px;
     padding: 10px;
+    opacity: 0.75;
+}
+
+img[alt="footer-icon"]:hover {
+    opacity: 1;
 }

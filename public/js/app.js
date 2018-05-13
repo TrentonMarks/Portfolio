@@ -3,10 +3,10 @@ class Footer extends React.Component{
         return  <footer>
                     <p>Created for <em>you</em> by Trenton Marks</p>
                     <a href="https://github.com/TrentonMarks">
-                        <img src="css/images/github.png" alt="icon" />
+                        <img src="css/images/github.png" alt="footer-icon" />
                     </a>
                     <a href="https://www.linkedin.com/in/trentonmarks/">
-                        <img src="css/images/linkedin.png" alt="icon" />
+                        <img src="css/images/linkedin.png" alt="footer-icon" />
                     </a>
                 </footer>
     }
@@ -98,9 +98,9 @@ class ReactRecords extends React.Component{
                     <div class="show-container">
                         <div class="selected-display">
                             <img src="/css/images/react-records.png" alt="React Records" />
+                            <img src="/css/images/github.png" alt="github icon" />
                         </div>
                         <div class="show">
-                            <h2 class="title">React Records</h2>
                             <div class="show-info">
                                 <h4>Description</h4>
                                 <p>A collaborative (3-person team) project built as an online record store mockup website. Users can add new records, delete or edit/update records, find a list of all records at the home page, or click on any record to view its SHOW page. </p>
@@ -116,6 +116,8 @@ class ReactRecords extends React.Component{
                                         <p>CSS</p>
                                         <p>Bulma</p>
                                         <p>HTML</p>
+                                    </div>
+                                    <div class="tech-container-three">
                                         <p>JavaScript</p>
                                     </div>
                                 </div>
@@ -194,9 +196,9 @@ class Drinkr extends React.Component{
                     <div class="show-container">
                         <div class="selected-display">
                             <img src="/css/images/drinkr.png" alt="Drinkr" />
+                            <img src="/css/images/github.png" alt="github icon" />
                         </div>
                         <div class="show">
-                            <h2 class="title">Drinkr</h2>
                             <div class="show-info">
                                 <h4>Description</h4>
                                 <p>A collaborative (two-man team) project for users to make their own personal cocktail recipe handbook. Users can view a random drink recipe, search specific drinks by name or ingredient, or even create their own recipe and save it to their homepage for future reference.</p>
@@ -208,11 +210,13 @@ class Drinkr extends React.Component{
                                         <p>Mongoose</p>
                                         <p>Express</p>
                                         <p>AngularJS</p>
-                                        <p>Node.js</p>
                                     </div>
                                     <div class="tech-container-two">
+                                        <p>Node.js</p>
+                                        <p>JavaScript</p>
                                         <p>HTML</p>
-                                        <p>CSS</p>
+                                    </div>
+                                    <div class="tech-container-three">
                                         <p>Normalize/Skeleton</p>
                                         <p>JavaScript</p>
                                     </div>
@@ -292,9 +296,9 @@ class LeftRight extends React.Component{
                     <div class="show-container">
                         <div class="selected-display">
                             <img src="/css/images/left-right.png" alt="Left.Right." />
+                            <img src="/css/images/github.png" alt="github icon" />
                         </div>
                         <div class="show">
-                            <h2 class="title">Left.Right.</h2>
                             <div class="show-info">
                                 <h4>Description</h4>
                                 <p>A website for users to view and post gifs in order to leave users oddly satisfied; or to be "left right".</p>
@@ -387,9 +391,9 @@ class BattleshipGalactica extends React.Component{
                     <div class="show-container">
                         <div class="selected-display">
                             <img src="/css/images/battleship-galactica.png" alt="Battleship Galactica" />
+                            <img src="/css/images/github.png" alt="github icon" />
                         </div>
                         <div class="show">
-                            <h2 class="title">Battleship Galactica</h2>
                             <div class="show-info">
                                 <h4>Description</h4>
                                 <p>A 2-player game of Battleship (User vs. AI) with continuous play until a winning or losing outcome is reached.</p>
@@ -412,7 +416,6 @@ class BattleshipGalactica extends React.Component{
 class ChopChop extends React.Component{
     render(){
         return  <div>
-
                     <div class="project-names-container">
 
                         <div class="project-name">
@@ -432,9 +435,7 @@ class ChopChop extends React.Component{
                         </div>
 
                     </div>
-
                     <div class="secondary-display-container">
-
                         <div
                             class="secondary-display"
                             onClick={()=>{
@@ -443,7 +444,6 @@ class ChopChop extends React.Component{
                         >
                             <img src="/css/images/battleship-galactica.png" alt="Battleship Galactica" />
                         </div>
-
                         <div
                             class="secondary-display"
                             onClick={()=>{
@@ -461,7 +461,6 @@ class ChopChop extends React.Component{
                         >
                             <img src="/css/images/drinkr.png" alt="Drink'r" />
                         </div>
-
                         <div
                             class="secondary-display"
                             onClick={()=>{
@@ -470,15 +469,13 @@ class ChopChop extends React.Component{
                         >
                             <img src="/css/images/react-records.png" alt="React Records" />
                         </div>
-
                     </div>
-
                     <div class="show-container">
                         <div class="selected-display">
                             <img src="/css/images/chop-chop.png" alt="Chop Chop" />
+                            <img src="/css/images/github.png" alt="github icon" />
                         </div>
                         <div class="show">
-                            <h2 class="title">Chop Chop</h2>
                             <div class="show-info">
                                 <h4>Description</h4>
                                 <p>An individual project built for an imaginary delivery service to be able to collect and display relevant data quickly and accurately.</p>
@@ -494,13 +491,14 @@ class ChopChop extends React.Component{
                                         <p>HTML</p>
                                         <p>CSS</p>
                                         <p>TailwindCSS</p>
+                                    </div>
+                                    <div class="tech-container-three">
                                         <p>JavaScript</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
     }
 }
