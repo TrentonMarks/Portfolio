@@ -2,10 +2,10 @@ class Footer extends React.Component{
     render(){
         return  <footer>
                     <p>Created for <em>you</em> by Trenton Marks</p>
-                    <a href="https://github.com/TrentonMarks">
+                    <a href="https://github.com/TrentonMarks" target="_blank">
                         <img src="css/images/github.png" alt="footer-icon" />
                     </a>
-                    <a href="https://www.linkedin.com/in/trentonmarks/">
+                    <a href="https://www.linkedin.com/in/trentonmarks/" target="_blank">
                         <img src="css/images/linkedin.png" alt="footer-icon" />
                     </a>
                 </footer>
@@ -98,8 +98,8 @@ class ReactRecords extends React.Component{
                     <div class="show-container">
                         <div class="selected-display">
                             <img src="/css/images/react-records.png" alt="React Records" />
-                            <a href="https://github.com/TrentonMarks/React-Records"><img src="/css/images/github.png" alt="github icon" /></a>
-                            <a href="https://react-records-app.herokuapp.com/"><img src="/css/images/link-icon.png" alt="link icon" /></a>
+                            <a href="https://github.com/TrentonMarks/React-Records" target="_blank"><img src="/css/images/github.png" alt="github icon" /></a>
+                            <a href="https://react-records-app.herokuapp.com/" target="_blank"><img src="/css/images/link-icon.png" alt="link icon" /></a>
                         </div>
                         <div class="show">
                             <div class="show-info">
@@ -197,8 +197,8 @@ class Drinkr extends React.Component{
                     <div class="show-container">
                         <div class="selected-display">
                             <img src="/css/images/drinkr.png" alt="Drinkr" />
-                            <a href="https://github.com/TrentonMarks/Drinkr"><img src="/css/images/github.png" alt="github icon" /></a>
-                            <a href="https://drinkr-app.herokuapp.com/"><img src="/css/images/link-icon.png" alt="link icon" /></a>
+                            <a href="https://github.com/TrentonMarks/Drinkr" target="_blank"><img src="/css/images/github.png" alt="github icon" /></a>
+                            <a href="https://drinkr-app.herokuapp.com/" target="_blank"><img src="/css/images/link-icon.png" alt="link icon" /></a>
                         </div>
                         <div class="show">
                             <div class="show-info">
@@ -298,7 +298,7 @@ class LeftRight extends React.Component{
                     <div class="show-container">
                         <div class="selected-display">
                             <img src="/css/images/left-right.png" alt="Left.Right." />
-                            <a href="https://github.com/TrentonMarks/LeftRight">
+                            <a href="https://github.com/TrentonMarks/LeftRight" target="_blank">
                                 <img src="/css/images/github.png" alt="github icon" />
                             </a>
                         </div>
@@ -398,10 +398,10 @@ class BattleshipGalactica extends React.Component{
                     <div class="show-container">
                         <div class="selected-display">
                             <img src="/css/images/battleship-galactica.png" alt="Battleship Galactica" />
-                            <a href="https://github.com/TrentonMarks/TrentonMarks.github.io/tree/master/Battleship">
+                            <a href="https://github.com/TrentonMarks/TrentonMarks.github.io/tree/master/Battleship" target="_blank">
                                 <img src="/css/images/github.png" alt="github icon" />
                             </a>
-                            <a href="https://trentonmarks.github.io/Battleship/">
+                            <a href="https://trentonmarks.github.io/Battleship/" target="_blank">
                                 <img src="/css/images/link-icon.png" alt="link icon" />
                             </a>
 
@@ -486,7 +486,7 @@ class ChopChop extends React.Component{
                     <div class="show-container">
                         <div class="selected-display">
                             <img src="/css/images/chop-chop.png" alt="Chop Chop" />
-                            <a href="https://github.com/TrentonMarks/Dispatcher"><img src="/css/images/github.png" alt="github icon" /></a>
+                            <a href="https://github.com/TrentonMarks/Dispatcher" target="_blank"><img src="/css/images/github.png" alt="github icon" /></a>
                             <img src="/css/images/link-icon.png" alt="link icon" />
                         </div>
                         <div class="show">
@@ -613,7 +613,9 @@ class Header extends React.Component{
     render(){
         return  <header>
                     <h1 class="header-name">Trenton Marks</h1>
-                    <p>A Full Stack Developer based in Denver, Colorado</p>
+                    <div class="typewriter">
+                        <p>A Full Stack Developer based in Denver, Colorado</p>
+                    </div>
                 </header>
     }
 }
