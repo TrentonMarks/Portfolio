@@ -19,7 +19,7 @@ class Contact extends React.Component{
                     <p>Trenton Marks</p>
                     <p>Email: trentmarks111@gmail.com</p>
                     <p>Cell: (989) 494-3575</p>
-
+                    <br></br>
                     <a
                         href ="#"
                         onClick={()=>{
@@ -98,8 +98,8 @@ class ReactRecords extends React.Component{
                     <div class="show-container">
                         <div class="selected-display">
                             <img src="/css/images/react-records.png" alt="React Records" />
-                            <img src="/css/images/github.png" alt="github icon" />
-                            <img src="/css/images/link-icon.png" alt="link icon" />
+                            <a href="https://github.com/TrentonMarks/React-Records"><img src="/css/images/github.png" alt="github icon" /></a>
+                            <a href="https://react-records-app.herokuapp.com/"><img src="/css/images/link-icon.png" alt="link icon" /></a>
                         </div>
                         <div class="show">
                             <div class="show-info">
@@ -197,8 +197,8 @@ class Drinkr extends React.Component{
                     <div class="show-container">
                         <div class="selected-display">
                             <img src="/css/images/drinkr.png" alt="Drinkr" />
-                            <img src="/css/images/github.png" alt="github icon" />
-                            <img src="/css/images/link-icon.png" alt="link icon" />
+                            <a href="https://github.com/TrentonMarks/Drinkr"><img src="/css/images/github.png" alt="github icon" /></a>
+                            <a href="https://drinkr-app.herokuapp.com/"><img src="/css/images/link-icon.png" alt="link icon" /></a>
                         </div>
                         <div class="show">
                             <div class="show-info">
@@ -298,13 +298,17 @@ class LeftRight extends React.Component{
                     <div class="show-container">
                         <div class="selected-display">
                             <img src="/css/images/left-right.png" alt="Left.Right." />
-                            <img src="/css/images/github.png" alt="github icon" />
-                            <img src="/css/images/link-icon.png" alt="link icon" />
+                            <a href="https://github.com/TrentonMarks/LeftRight">
+                                <img src="/css/images/github.png" alt="github icon" />
+                            </a>
                         </div>
                         <div class="show">
                             <div class="show-info">
                                 <h4>Description</h4>
                                 <p>A website for users to view and post gifs in order to leave users oddly satisfied; or to be "left right".</p>
+
+                                <em>**This project is currently being re-built. Project is NOT deployed.**</em>
+
                                 <p>An MVC file structure is followed with a single model that contains all 7 RESTful routes and full CRUD.</p>
                                 <h4>Technologies Used</h4>
                                 <div class="tech">
@@ -394,8 +398,13 @@ class BattleshipGalactica extends React.Component{
                     <div class="show-container">
                         <div class="selected-display">
                             <img src="/css/images/battleship-galactica.png" alt="Battleship Galactica" />
-                            <img src="/css/images/github.png" alt="github icon" />
-                            <img src="/css/images/link-icon.png" alt="link icon" />
+                            <a href="https://github.com/TrentonMarks/TrentonMarks.github.io/tree/master/Battleship">
+                                <img src="/css/images/github.png" alt="github icon" />
+                            </a>
+                            <a href="https://trentonmarks.github.io/Battleship/">
+                                <img src="/css/images/link-icon.png" alt="link icon" />
+                            </a>
+
                         </div>
                         <div class="show">
                             <div class="show-info">
@@ -477,7 +486,7 @@ class ChopChop extends React.Component{
                     <div class="show-container">
                         <div class="selected-display">
                             <img src="/css/images/chop-chop.png" alt="Chop Chop" />
-                            <img src="/css/images/github.png" alt="github icon" />
+                            <a href="https://github.com/TrentonMarks/Dispatcher"><img src="/css/images/github.png" alt="github icon" /></a>
                             <img src="/css/images/link-icon.png" alt="link icon" />
                         </div>
                         <div class="show">
@@ -513,9 +522,9 @@ class Projects extends React.Component{
         super(props)
         this.changeState = this.changeState.bind(this)
         this.state = {
-            showingCC: true,
+            showingCC: false,
             showingBG: false,
-            showingLR: false,
+            showingLR: true,
             showingDr: false,
             showingRR: false
         }
